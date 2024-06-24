@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn programming</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">JB CodeAcademy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero text-center">
+        <div class="container">
+            <h1>Learn to Code with JB CodeAcademy</h1>
+            <p>Start your journey to mastering programming languages with our comprehensive courses.</p>
+            <a href="#courses" class="btn btn-primary btn-lg" id="browsecoursebtn">Browse Courses</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features text-center">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-laptop-code fa-4x mb-4"></i>
+                    <h3>Interactive Learning</h3>
+                    <p>Engage with hands-on coding exercises and projects.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-chalkboard-teacher fa-4x mb-4"></i>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry professionals with real-world experience.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-certificate fa-4x mb-4"></i>
+                    <h3>Certification</h3>
+                    <p>Earn certificates upon completing courses to showcase your skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses text-center">
+        <div class="container">
+            <h2>Popular Courses</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="course1.jpg" class="card-img-top" alt="Course 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Programming</h5>
+                            <p class="card-text">Master Python fundamentals and advanced topics.</p>
+                            <a href="#" class="btn btn-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="course2.jpg" class="card-img-top" alt="Course 2">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Essentials</h5>
+                            <p class="card-text">Learn JavaScript from basics to DOM manipulation.</p>
+                            <a href="#" class="btn btn-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="course3.jpg" class="card-img-top" alt="Course 3">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML & CSS Mastery</h5>
+                            <p class="card-text">Build responsive websites with HTML5 and CSS3.</p>
+                            <a href="#" class="btn btn-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials text-center">
+        <div class="container">
+            <h2 >What Our Students Say</h2>
+            <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="lead">"I've tried other platforms, but LearnCode's courses are by far the most comprehensive and practical."</p>
+                        <cite>Aarthi</cite>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="lead">"The instructors are amazing! They break down complex topics into easy-to-understand concepts."</p>
+                        <cite>Divya Shree</cite>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact text-center">
+        <div class="container">
+            <h2 style="margin-top: 15px;">Contact Us</h2>
+            <p style="margin-top: -15px;">Have a question? Reach out to our support team.</p>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                
+            </form>
+            <div class="mt-4">
+                <a href="#" class="btn btn-outline-dark btn-social mx-1" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-outline-dark btn-social mx-1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="btn btn-outline-dark btn-social mx-1" target="_blank"><i class="fab fa-twitter"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 JB CodeAcademy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
